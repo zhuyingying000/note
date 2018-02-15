@@ -15,8 +15,9 @@ body {
     text-decoration: none;
     color: #ccc;
     display: flex;
-    padding-right: 80px;
-
+    padding-right: 150px;
+    font-size: 10px;
+    align-items: center;
 }
 
 #title {
@@ -25,12 +26,16 @@ body {
     padding-left: 120px;
     padding-right: 120px;
     background: #333;
-    text-decoration: none;
+
 }
 
 #title a {
     display: flex;
     color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
 }
 
@@ -40,6 +45,32 @@ body {
     max-height: 100%;
 }
 
-#image-container {
+#image-iphone {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
 
+}
+
+#image-iphone img {
+    display: flex;
+    width: 909px;
+    height: 194px;
+
+}
+
+.par {
+    font-size: 50px;
+
+}
+
+.pare {
+    font-size: 20px;
+
+}
+
+.pare span {
+    font-size: 25px;
 }
