@@ -7,11 +7,16 @@ body {
 #header {
     height: 40px;
     background: #666;
+    display: flex;
+    justify-content: flex-end;
 }
 
 #part {
     text-decoration: none;
     color: #ccc;
+    display: flex;
+    padding-right: 80px;
+
 }
 
 #title {
@@ -26,5 +31,15 @@ body {
 #title a {
     display: flex;
     color: #fff;
+
+}
+
+#image-container img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#image-container {
 
 }
