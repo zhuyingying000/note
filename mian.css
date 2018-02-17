@@ -133,7 +133,7 @@ body {
 }
 
 #big-frame .mac {
- background-color: #191919;
+    background: #191919;
 }
 
 .picture-container .title {
@@ -145,4 +145,77 @@ body {
     align-items: center;
     flex-direction: column;
     color: #ffdb89;
+
+}
+
+.picture-container .title1 {
+
+    position: absolute;
+    color: #fff;
+
+}
+
+.picture-container .title2 {
+
+    color: #fff;
+
+}
+
+.picture-container .title3 span {
+
+    color: #f00;
+
+}
+
+#big-frame .watch {
+    background: #fafafa;
+}
+
+#big-frame .airpod {
+    background: #fafafa;
+}
+
+.store li {
+
+    list-style-type: none;
+
+}
+
+.store li a {
+    color:#404040;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 2px;
+}
+
+#foot {
+    display: flex;
+    padding-left:100px;
+    padding-right: 60px;
+    background:#f0f0f0;
+}
+
+.store {
+    flex: 1;
+}
+.demo{
+    font-size: 2px;
+}
+#store1{
+
+    font-size: 12px;
+    background: #f0f0f0;
+    padding-top: 10px;
+    padding-left: 120px;
+    color:#404040;
+}
+#store1 a{
+    text-decoration: none;
+
+}
+#store1 .hoi{
+    color:#0099cc;
+}
+#store1  .mab{
+    color:#404040;
 }
