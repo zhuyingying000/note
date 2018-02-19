@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+}
+
+#banner {
+    height: 700px;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    padding-right: 20px;
+}
+
+nav ul li a {
+    line-height: 50px;
+    text-decoration: none;
+    height: inherit;
+    color: #fff;
+
+}
+
+#banner .inner {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 160px;
+
+}
+
+#banner .inner h1 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    color: #eee;
+    background: red;
+    padding: 14px 40px;
+    border-radius: 15px;
+}
+
+#banner .inner .more {
+    padding-top: 280px;
+}
+
+#banner .inner .sub-heading {
+    line-height: 30px;
+    margin: 30px;
+}
+
+.logo {
+    text-decoration: none;
+    line-height: 50px;
+    height: 50px;
+    letter-spacing: 1px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.green-section {
+    text-align: center;
+    background: #089dB0;
+    color: #fff;
+    padding: 100px 0;
+
+}
+
+.wrapper h2 {
+    margin: 0;
+}
+
+.hr {
+    background: #078494;
+    width: 60%;
+    margin: 20px auto;
+    magrin: 20 0;
+    height: 2px;
+}
+
+.sub-heading {
+    font-size: 18px;
+}
+
+.green-section .icon-group .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #0d6f7c;
+    transform: rotate(45deg);
+    margin: 20px;
+}
+
+.icon-group {
+    margin-top: 60px;
+}
+
+.img-section {
+    max-width: 45%;
+    min-width: 45%;
+    display: inline-block;
+}
+
+.img-section img {
+    max-width: 100%;
+}
+
+
+.gary-section {
+    background: #191919;
+    color: #fff;
+}
+
+.article-preview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-section {
+    padding: 40px;
+
+}
+
+.text-section p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.article-preview:nth-child(odd) {
+    background: rgba(255, 255, 255, 0.05);
+}
+.purple-section{
+  background:#3f3965 ;
+    color: #fff;
+    padding:80px;
+}
+.purple-section .heading-wrapper{
+    text-align: center;
+}
+.purple-section .hr{
+    background: #373259;
+    width: 60%;
+}
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+
+
+}
+.card{
+    width: 40%;
+    min-height:300px;
+    padding: 50px;
+    /*border: 1px solid white;*/
+
+
+}
+.card h3{
+    font-size: 24px;
+
+}
+p{
+     font-size: 18px;
+    letter-spacing: 1px;
+    /*整片文字的段落，全局样式*/
+ }
+.card:first-child{
+    background: rgba(0,0,0,0.04);
+}
+.card:nth-child(2){
+    background: rgba(0,0,0,0.08);
+}
+.card:nth-child(3){
+    background: rgba(0,0,0,0.12);
+}
+.card:nth-child(4){
+    background: rgba(0,0,0,0.16);
+}
+footer{
+    background:#333;
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+
+}
+ul{
+    margin:0;
+}
+.share-group li{
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.share-group  {
+    margin: 0 auto;
+    padding: 50px;
+}
+.copy{
+    padding-bottom: 20px;
+}
+.important-wrapper{
+    background-size: cover;
+    background: #444 url('./image/banner.jpg') no-repeat fixed center;
+
+}
+header{
+    background :rgba(0,0,0,0.4);
+
+}
+.give-me{
+    text-align: center;
+    padding:80px;
+}
+.give-money{
+    background: red;
+    margin-right: 20px;
+}
+
+.give-food{
+    border:1px solid red;
+    background: transparent;
+}
