@@ -4,7 +4,7 @@ body {
 
 }
 
-#header {
+.header {
     height: 40px;
     background: #666;
     display: flex;
@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 
-#part {
+#ad {
     text-decoration: none;
     color: #ccc;
     padding-right: 150px;
@@ -20,31 +20,30 @@ body {
 
 }
 
-#title {
+.menu {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-left: 120px;
     padding-right: 120px;
     background: #333;
+    height: 30px;
 
 }
 
-#title a {
+.menu a {
     color: #fff;
     text-decoration: none;
     font-size: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 
 }
 
-#image-container img {
-    display: block;
+.image-container img {
     max-width: 100%;
-    max-height: 100%;
+/ / 图片撑满整个div容器。 max-height: 100 %;
 }
 
-#image-iphone {
+.image-iphone-x {
     padding: 50px;
     display: flex;
     align-items: center;
@@ -53,57 +52,37 @@ body {
 
 }
 
-#image-iphone img {
-    display: flex;
+.image-iphone-x img {
     width: 909px;
     height: 194px;
 
 }
 
-.par {
+.iphone {
     font-size: 50px;
 
 }
 
-.pare {
+.title {
     font-size: 20px;
 
 }
 
-.pare span {
+.title span {
     font-size: 25px;
 }
 
-#image-iphone8 {
+.image-iphone8 {
     display: flex;
     align-items: center;
     flex-direction: column;
     background: #faf0ea;
     margin-top: 15px;
-
 }
 
-#image-iphone8 img {
-    display: flex;
+.image-iphone8 img {
     width: 600px;
     height: 350px;
-
-
-}
-
-.big {
-    font-size: 25px;
-
-
-}
-
-.iphone-8 {
-    font-size: 50px;
-
-}
-
-.demo span {
-    font-size: 25px;
 }
 
 #big-frame {
@@ -137,36 +116,19 @@ body {
     background: #191919;
 }
 
-.picture-container .title {
+.picture-container .big-frame-store{
     position: absolute;
-    left: 50%;
-    width: 200px;
-    margin-left: -100px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
     color: #ffdb89;
-
 }
 
-.picture-container .title1 {
 
+.picture-container .big-frame-title {
+    color:#fff;
     position: absolute;
-    color: #fff;
-
 }
 
-.picture-container .title2 {
 
-    color: #fff;
-
-}
-
-.picture-container .title3 span {
-
-    color: #f00;
-
-}
 
 #big-frame .watch {
     background: #fafafa;
@@ -176,6 +138,18 @@ body {
     background: #fafafa;
 }
 
+#foot {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 60px;
+    background: #f0f0f0;
+}
+
+.store {
+    flex: 1;
+}
+
+
 .store li {
 
     list-style-type: none;
@@ -183,40 +157,35 @@ body {
 }
 
 .store li a {
-    color:#404040;
+    color: #404040;
     text-decoration: none;
     line-height: 25px;
     font-size: 2px;
 }
 
-#foot {
-    display: flex;
-    padding-left:100px;
-    padding-right: 60px;
-    background:#f0f0f0;
+.demo {
+    font-size: 2px;
+    font-weight: bold;
 }
 
-.store {
-    flex: 1;
-}
-.demo{
-    font-size: 2px;
-}
-#store1{
+#shop {
 
     font-size: 12px;
     background: #f0f0f0;
     padding-top: 10px;
     padding-left: 120px;
-    color:#404040;
+    color: #404040;
 }
-#store1 a{
+
+#shop a {
     text-decoration: none;
 
 }
-#store1 .hoi{
-    color:#0099cc;
+
+#shop .apple-shop {
+    color: #0099cc;
 }
-#store1  .mab{
-    color:#404040;
+
+#shop .link {
+    color: #404040;
 }
