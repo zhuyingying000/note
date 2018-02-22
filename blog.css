@@ -6,11 +6,21 @@ body {
 nav {
     height: 50px;
     display: flex;
+    /*不理解*/
 }
 
-#banner {
-    height: 700px;
+.logo {
+    text-decoration: none;
+    line-height: 50px;
+    /*不理解*/
+    height: 50px;
+    /*不理解*/
+    letter-spacing: 1px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
     color: #fff;
+
 }
 
 nav ul {
@@ -27,31 +37,45 @@ nav ul li {
     padding-right: 20px;
 }
 
-nav ul li a {
+nav ul li a{
     line-height: 50px;
-    text-decoration: none;
     height: inherit;
+    text-decoration: none;
     color: #fff;
 
+}
+
+#banner {
+    height: 700px;
+    color: #fff;
 }
 
 #banner .inner {
     max-width: 300px;
     text-align: center;
     margin: 0 auto;
+    /*左右居中*/
     position: relative;
+    /*相对自身定位*/
     top: 160px;
+    /*距离顶部160像素。*/
 
 }
 
 #banner .inner h1 {
     margin: 0;
+    /*外边框等于0.*/
+}
+
+#banner .inner .sub-heading {
+    line-height: 30px;
+    margin: 30px;
 }
 
 button {
     border: none;
     color: #eee;
-    background: red;
+   background: #0d6f7c;
     padding: 14px 40px;
     border-radius: 15px;
 }
@@ -60,39 +84,25 @@ button {
     padding-top: 280px;
 }
 
-#banner .inner .sub-heading {
-    line-height: 30px;
-    margin: 30px;
-}
-
-.logo {
-    text-decoration: none;
-    line-height: 50px;
-    height: 50px;
-    letter-spacing: 1px;
-    padding-left: 30px;
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-
-}
-
 .green-section {
     text-align: center;
     background: #089dB0;
     color: #fff;
     padding: 100px 0;
+    /*上下100，左右0像素。*/
 
 }
 
 .wrapper h2 {
     margin: 0;
+    /*h2标题自带边框。*/
 }
 
 .hr {
     background: #078494;
     width: 60%;
     margin: 20px auto;
+    /*上下20像素，左右居中。*/
     magrin: 20 0;
     height: 2px;
 }
@@ -103,6 +113,7 @@ button {
 
 .green-section .icon-group .icon {
     display: inline-block;
+    /*行内元素不能设置寬高，只有行内块元素能设置寬高。*/
     width: 80px;
     height: 80px;
     background: #0d6f7c;
@@ -114,16 +125,6 @@ button {
     margin-top: 60px;
 }
 
-.img-section {
-    max-width: 45%;
-    min-width: 45%;
-    display: inline-block;
-}
-
-.img-section img {
-    max-width: 100%;
-}
-
 
 .gary-section {
     background: #191919;
@@ -133,6 +134,18 @@ button {
 .article-preview {
     display: flex;
     justify-content: space-between;
+}
+
+
+.img-section {
+    max-width: 45%;
+    min-width: 45%;
+    display: inline-block;
+}
+
+
+.img-section img {
+    max-width: 100%;
 }
 
 .text-section {
@@ -164,16 +177,12 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-
-
-
 }
 .card{
     width: 40%;
     min-height:300px;
     padding: 50px;
     /*border: 1px solid white;*/
-
 
 }
 .card h3{
