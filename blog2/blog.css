@@ -231,7 +231,7 @@ ul{
 }
 .important-wrapper{
     background-size: cover;
-    background: #444 url('./image/banner.jpg') no-repeat fixed center;
+    background: #444 url('../image/banner.jpg') no-repeat fixed center;
 
 }
 header{
