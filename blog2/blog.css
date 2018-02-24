@@ -3,6 +3,20 @@ body {
     padding: 0;
 }
 
+header{
+    background :rgba(0,0,0,0.4);
+
+}
+
+
+.important-wrapper{
+    background-size: cover;
+    background: #444 url('../image/banner.jpg') no-repeat fixed center;
+
+}
+
+
+
 nav {
     height: 50px;
     display: flex;
@@ -49,9 +63,6 @@ nav ul li a{
     height: 700px;
     color: #fff;
 }
-.article #banner .inner{
-    top:30px;
-}
 
 .article #banner{
     height:300px;
@@ -64,20 +75,10 @@ nav ul li a{
     /*左右居中*/
     position: relative;
     /*相对自身定位*/
-    top: 160px;
+    top: 300px;
     /*距离顶部160像素。*/
 
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -105,15 +106,8 @@ ul{
 .copy{
     padding-bottom: 20px;
 }
-.important-wrapper{
-    background-size: cover;
-    background: #444 url('../image/banner.jpg') no-repeat fixed center;
 
-}
-header{
-    background :rgba(0,0,0,0.4);
 
-}
 
 
 #back-top{
@@ -168,9 +162,8 @@ header{
     width:1080px;
     margin:0 auto;
 }
-.article_content{
-    background: #efefef;
-}
+
+
 article{
     line-height: 2;
     padding:15px 0;
@@ -179,4 +172,7 @@ article{
     font-size: 14px;
     color:#888;
     padding:15px 0;
+}
+.content{
+    background: #efefef;
 }
