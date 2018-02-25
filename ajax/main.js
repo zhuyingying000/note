@@ -11,9 +11,9 @@ function goAjax() {
             alert("readyState:" + ajax.readyState +
                 'status：' + ajax.status +
                 'responseText' + ajax.responseText);
-            var resule = JSON.parse(ajax.responseText);
+            var result = JSON.parse(ajax.responseText);
             var serverImage = document.getElementById("image");
-            serverImage.src = resule.image;
+            serverImage.src = result.image;
         }
 
     };
