@@ -4,14 +4,16 @@
     <meta charset="utf-8">
     <title>qq邮箱首页</title>
     <link rel="stylesheet" type="text/css" href="./main.css">
+    <script src="./qq.js"></script>
 </head>
-<body>
+<body onload="load()">
 <header>
     <img src="qqmail_logo_default_35h206ff1.png">
     <div class="nav">
-            <a href="http://service.mail.qq.com">基本版&nbsp;|&nbsp;</a>
-            <a href="http://app.mail.qq.com/">手机版&nbsp;|&nbsp;</a>
-            <a href="http://exmail.qq.com?referrer=index_top">企业邮箱&nbsp;&nbsp;</a>
+        <a href="http://service.mail.qq.com">基本版;</a>|
+        <a href="http://app.mail.qq.com/">English</a>|
+        <a href="http://app.mail.qq.com/">手机版</a>|
+        <a href="http://exmail.qq.com?referrer=index_top">企业邮箱</a>|
     </div>
 </header>
 
@@ -23,36 +25,39 @@
             <p>182年前，莫尔斯发明了电报</p>
             <p>49年前，第一封电子邮件发出</p>
             <p>今天，QQ邮箱联系你、我、他</p>
-        </div >
+        </div>
         <img src="tg-chang1ea8a2.png">
     </div>
     <div class="side-right">
-        <div class="title">
-            <a href="">快速登录</a>
-            <a href="">账号密码登录</a>
+        <div class="form">
+            <div class="title">
+                <a href="">快速登录</a>
+                <a href="">账号密码登录</a>
+            </div>
+            <div class="content">
+                <input type="email" class="input1" placeholder="支持QQ号/邮箱/手机号登录">
+                <input type="password" class="input1" placeholder="QQ密码">
+                <label>
+                    <input type="checkbox" class="checkbook">下次自动登录
+                </label>
+                <input type="submit" value="登录" id="button"><br/><br/>
+            </div>
+            <div id="link">
+                <a href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account">忘记密码？</a>|
+                <a href="http://zc.qq.com/chs/index.html?type=1">账号新注册</a>|
+                <a href="http://support.qq.com/discuss/350_1.shtml">意见发聩</a>
+            </div>
         </div>
-        <br>
-        <input type="email" class="input1">
-        <br/><br/>
-        <input type="password"  class="input1">
-        <br/><br/>
-        <input type="checkbox" class="checkbook">下次自动登录
-        <br/><br/>
-        <input type="submit" value="登录" id="button"><br/><br/>
-       <div id="link">
-           <a href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account">忘记密码？&nbsp;&nbsp;|&nbsp;</a>
-           <a href="http://zc.qq.com/chs/index.html?type=1" >账号新注册&nbsp;&nbsp;|&nbsp;</a>
-           <a href="http://support.qq.com/discuss/350_1.shtml" >意见发聩</a></div>
     </div>
 </div>
 
 <div class="footer">
-        <a href="http://www.tencent.com">关于腾讯|</a>
-        <a href="http://mail.qq.com/cgi-bin/readtemplate?check=false&t=mail_clause">服务条款&nbsp;|&nbsp;</a>
-        <a href="http://kf.qq.com/product/email.html">客服中心&nbsp;|&nbsp;</a>
-        <a href="http://mail.qq.com/contact_us.html">联系我们&nbsp;|&nbsp;</a>
-        <a href="http://service.mail.qq.com">帮助我们&nbsp;|&nbsp;</a>
-        <span>©1998 - 2018 Tencent Inc. All Rights Reserved.</span>
+    <a href="http://www.tencent.com">关于腾讯</a>|
+    <a href="http://mail.qq.com/cgi-bin/readtemplate?check=false&t=mail_clause">服务条款</a>|
+    <a href="http://kf.qq.com/product/email.html">客服中心</a>|
+    <a href="http://mail.qq.com/contact_us.html">联系我们</a>|
+    <a href="http://service.mail.qq.com">帮助我们</a>
+    <span>©1998 - 2018 Tencent Inc. All Rights Reserved.</span>
 </div>
 </body>
 </html>
