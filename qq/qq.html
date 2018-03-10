@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="./main.css">
     <script src="./qq.js"></script>
 </head>
-<body onload="load()">
+<body>
 <header>
     <img src="qqmail_logo_default_35h206ff1.png">
     <div class="nav">
@@ -31,22 +31,43 @@
     <div class="side-right">
         <div class="form">
             <div class="title">
-                <a href="">快速登录</a>
-                <a href="">账号密码登录</a>
+                <a href="javascript:goFast()">快速登录</a>
+                <a href="javascript:goAccount()">账号密码登录</a>
             </div>
-            <div class="content">
-                <input type="email" class="input1" placeholder="支持QQ号/邮箱/手机号登录">
-                <input type="password" class="input1" placeholder="QQ密码">
-                <label>
-                    <input type="checkbox" class="checkbook">下次自动登录
-                </label>
-                <input type="submit" value="登录" id="button"><br/><br/>
+            <div class="tab">
+                <div class="qr">
+
+                    <h5>安全登录，防止被盗</h5>
+                    <img src="ptqrshow.png" alt="">
+                    <a href="" class="load">使用QQ手机版扫描登录</a>
+                </div>
+                <div class="more">
+                    <label>
+                        <input type="checkbox" class="checkbook">下次自动登录
+                    </label>
+                    <div class="inner">
+
+                        <a href="">注册新账号</a>|
+                        <a href="">意见反馈</a>
+                    </div>
+                </div>
             </div>
-            <div id="link">
-                <a href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account">忘记密码？</a>|
-                <a href="http://zc.qq.com/chs/index.html?type=1">账号新注册</a>|
-                <a href="http://support.qq.com/discuss/350_1.shtml">意见发聩</a>
+            <div id="content">
+                <div class="ctx">
+                    <input type="email" class="input1" placeholder="支持QQ号/邮箱/手机号登录">
+                    <input type="password" class="input1" placeholder="QQ密码">
+                    <label>
+                        <input type="checkbox" class="checkbook">下次自动登录
+                    </label>
+                    <input type="submit" value="登录" id="button"><br/><br/>
+                </div>
+                <div id="link">
+                    <a href="https://aq.qq.com/cn2/findpsw/pc/pc_find_pwd_input_account">忘记密码？</a>|
+                    <a href="http://zc.qq.com/chs/index.html?type=1">账号新注册</a>|
+                    <a href="http://support.qq.com/discuss/350_1.shtml">意见发聩</a>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
