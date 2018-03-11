@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     display: flex;
+    /*主轴方向*/
     flex-direction: column;
     min-width: 1110px;
 }
@@ -18,26 +19,26 @@ a:hover {
 
 header {
     background: #edf3f9;
+    /*内边框*/
     padding: 20px 30px;
     border: 1px solid #d2dbe7;
+    /* display: flex默认横向布局*/
     display: flex;
+    /*主轴上的对齐方式*/
     justify-content: space-between;
     /*垂直轴*/
     align-items: center;
 }
 
-header a {
+header  .nav a {
     color: #234c89;
     padding: 0 5px;
-
-}
-
-header, nav {
     font-size: 10px;
 }
 
 #container {
     display: flex;
+    /*沾满整个屏幕*/
     flex: 1;
 }
 
@@ -69,6 +70,7 @@ header, nav {
     text-align: center;
     border-radius: 3px;
     display: flex;
+    /*主轴方向*/
     flex-direction: column;
 }
 
@@ -159,7 +161,7 @@ header, nav {
 }
 
 .tab {
-    display: flex;
+
     flex-direction: column;
     align-items: center;
     padding: 20px;
