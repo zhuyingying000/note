@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.nav {
+    display: flex;
+    /*主轴上的对齐方式*/
+    justify-content: flex-end;
+    /*垂直轴*/
+    align-items: center;
+}
+
+.nav a {
+    font-size: 16px;
+    color: #2E2E2E;
+    padding: 30px 5px;
+}
+
+.nav .button1 {
+    font-size:18px;
+    color: white;
+    background:dodgerblue;
+    margin:15px;
+    padding: 5px 5px;
+    border: none;
+}
+
+.middle {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+.middle .link2 .button2{
+    color: white;
+    background: dodgerblue;
+    border: none;
+    padding:7px;
+}
+.middle .link2 .link3{
+   width:500px;
+    height:30px;
+
+}
+ ,link img{
+     width:270px;
+ }
+.footer {
+    height: 300px;
+    text-align: center;
+}
+
+.footer img {
+    height: 100px;
+    width: 150px;
+}
+.footer .more{
+    padding:20px;
+}
