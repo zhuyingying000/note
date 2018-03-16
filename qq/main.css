@@ -40,6 +40,7 @@ header  .nav a {
     display: flex;
     /*沾满整个屏幕*/
     flex: 1;
+    padding:100px 0;
 }
 
 .side-left {

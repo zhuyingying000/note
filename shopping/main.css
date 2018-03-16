@@ -83,13 +83,13 @@ width: 50%;
 width: 60%;
 }
 
-/*.col-7 {*/
-/*width: 70%;*/
-/*}*/
+.col-7 {
+width: 70%;
+}
 
-/*.col-8 {*/
-/*width: 80%;*/
-/*}*/
+.col-8 {
+width: 80%;
+}
 
 .top-nav {
     background: #eee;
@@ -241,5 +241,4 @@ width: 60%;
     color: #999;
     margin-left: 10px;
 }
-
 

@@ -46,7 +46,6 @@ html, body {
 .middle .link2 .link3{
    width:500px;
     height:30px;
-
 }
  ,link img{
      width:270px;
@@ -57,8 +56,8 @@ html, body {
 }
 
 .footer img {
-    height: 100px;
-    width: 150px;
+    height: 80px;
+
 }
 .footer .more{
     padding:20px;
